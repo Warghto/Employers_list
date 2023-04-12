@@ -5,11 +5,10 @@ import EmployersList from "../employers-list/employers-list";
 import EmployersAddForm from "../employers-add-form/employers-add-form";
 import './app.css'
 function App(){
-
     const data = [
-        {name:'Johan' , salary: 800, increase: false },
-        {name:'Carlos' , salary: 1600, increase: false },
-        {name:'Mark' , salary: 900, increase: false },
+        {name:'Johan' , salary: 800, increase: false, id: 1 },
+        {name:'Carlos' , salary: 1600, increase: true, id: 2 },
+        {name:'Mark' , salary: 900, increase: false, id: 3 },
     ];
     return(
         <div className="app">
